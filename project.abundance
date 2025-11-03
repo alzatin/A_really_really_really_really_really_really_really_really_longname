@@ -19,39 +19,39 @@
       "atomType": "Rectangle",
       "name": "Rectangle",
       "x": 0.15583075335397317,
-      "y": 0.4409937888198758,
+      "y": 0.4161490683229814,
       "uniqueID": "1b9e4495-2958-490f-b191-17e032057477",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 50,
+          "currentEquation": "50"
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 50,
+          "currentEquation": "50"
         }
       ]
     },
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.45304437564499483,
-      "y": 0.2981366459627329,
+      "x": 0.43962848297213625,
+      "y": 0.2919254658385093,
       "uniqueID": "89f5ea0e-101f-45dc-98f6-3d8e4cb8af95",
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
     {
       "atomType": "Gcode",
       "name": "Gcode",
-      "x": 0.804953560371517,
-      "y": 0.37888198757763975,
+      "x": 0.8307533539731682,
+      "y": 0.3726708074534162,
       "uniqueID": "d7bd044f-9afc-4440-9b3b-d7eb3488d3b6",
       "ioValues": [
         {
@@ -60,8 +60,8 @@
         },
         {
           "name": "Passes",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 3,
+          "currentEquation": "3"
         },
         {
           "name": "Speed",
@@ -69,8 +69,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "Part Name",
@@ -83,8 +82,8 @@
     {
       "atomType": "Import",
       "name": "Import",
-      "x": 0.24045407636738908,
-      "y": 0.7360248447204969,
+      "x": 0.17027863777089783,
+      "y": 0.7267080745341615,
       "uniqueID": "a408954b-34ca-40da-9e3b-fc606b1178d5",
       "ioValues": [],
       "fileName": "Frailejon_3-converted.svg",
@@ -95,14 +94,77 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.6181630546955624,
-      "y": 0.6118012422360248,
+      "x": 0.4189886480908153,
+      "y": 0.8509316770186335,
       "uniqueID": "7eec2c54-9160-4320-a722-db0906e97032",
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.29411764705882354,
+      "y": 0.6242236024844721,
+      "uniqueID": "id-21",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 30,
+          "currentEquation": "30"
+        },
+        {
+          "name": "y length",
+          "ioValue": 30,
+          "currentEquation": "30"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.45098039215686275,
+      "y": 0.5838509316770186,
+      "uniqueID": "id-25",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 5,
+          "currentEquation": "5"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "name": "Difference",
+      "x": 0.7162022703818369,
+      "y": 0.6335403726708074,
+      "uniqueID": "id-29",
+      "ioValues": []
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.52218782249742,
+      "y": 0.7763975155279503,
+      "uniqueID": "id-33",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 5,
+          "currentEquation": "5"
         }
       ]
     }
@@ -115,10 +177,40 @@
       "ap2ID": "89f5ea0e-101f-45dc-98f6-3d8e4cb8af95"
     },
     {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry1",
+      "ap1ID": "89f5ea0e-101f-45dc-98f6-3d8e4cb8af95",
+      "ap2ID": "id-29"
+    },
+    {
       "ap1Name": "output",
       "ap2Name": "geometry",
       "ap1ID": "a408954b-34ca-40da-9e3b-fc606b1178d5",
       "ap2ID": "7eec2c54-9160-4320-a722-db0906e97032"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-21",
+      "ap2ID": "id-25"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-25",
+      "ap2ID": "id-33"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-29",
+      "ap2ID": "d7bd044f-9afc-4440-9b3b-d7eb3488d3b6"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry2",
+      "ap1ID": "id-33",
+      "ap2ID": "id-29"
     }
   ],
   "unitsKey": "MM",
