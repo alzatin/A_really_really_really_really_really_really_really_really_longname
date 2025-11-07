@@ -164,9 +164,9 @@
     {
       "atomType": "Molecule",
       "name": "New Molecule",
-      "x": 0.5964912280701754,
-      "y": 0.2608695652173913,
-      "uniqueID": "id-88",
+      "x": 0.43154362416107384,
+      "y": 0.2391304347826087,
+      "uniqueID": "id-148",
       "ioValues": [],
       "topLevel": false,
       "allAtoms": [
@@ -175,81 +175,24 @@
           "name": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-90",
+          "uniqueID": "id-150",
           "ioValues": []
         },
         {
           "atomType": "Import",
           "name": "Import",
-          "x": 0.34055727554179566,
-          "y": 0.5838509316770186,
-          "uniqueID": "id-92",
+          "x": 0.34697986577181206,
+          "y": 0.46894409937888204,
+          "uniqueID": "id-152",
           "ioValues": [],
-          "fileName": "cow2-converted.svg",
+          "fileName": "31162712.svg",
           "type": "SVG",
           "repoOwner": "alzatin",
           "repoName": "donut_5",
           "SVGwidth": 10
-        },
-        {
-          "atomType": "Extrude",
-          "name": "Extrude",
-          "x": 0.587203302373581,
-          "y": 0.562111801242236,
-          "uniqueID": "id-93",
-          "ioValues": [
-            {
-              "name": "height",
-              "ioValue": 0.1
-            }
-          ]
-        },
-        {
-          "atomType": "Export",
-          "name": "Export",
-          "x": 0.7393704850361197,
-          "y": 0.29782608695652174,
-          "uniqueID": "id-94",
-          "ioValues": [
-            {
-              "name": "File Type",
-              "ioValue": "STL"
-            },
-            {
-              "name": "Resolution (dpi)",
-              "ioValue": 96
-            },
-            {
-              "name": "Part Name",
-              "ioValue": "Molecule"
-            }
-          ],
-          "type": null,
-          "resolution": 96,
-          "importIndex": 0,
-          "partName": "Molecule"
         }
       ],
-      "allConnectors": [
-        {
-          "ap1Name": "output",
-          "ap2Name": "geometry",
-          "ap1ID": "id-92",
-          "ap2ID": "id-93"
-        },
-        {
-          "ap1Name": "geometry",
-          "ap2Name": "geometry",
-          "ap1ID": "id-93",
-          "ap2ID": "id-94"
-        },
-        {
-          "ap1Name": "geometry",
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-93",
-          "ap2ID": "id-90"
-        }
-      ],
+      "allConnectors": [],
       "fileTypeVersion": 1,
       "compiledBom": {}
     }
