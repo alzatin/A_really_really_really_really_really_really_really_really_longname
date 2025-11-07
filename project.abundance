@@ -46,38 +46,6 @@
       ]
     },
     {
-      "atomType": "Gcode",
-      "name": "Gcode",
-      "x": 0.7852348993288591,
-      "y": 0.3074534161490683,
-      "uniqueID": "d7bd044f-9afc-4440-9b3b-d7eb3488d3b6",
-      "ioValues": [
-        {
-          "name": "Tool Size",
-          "ioValue": 0.5
-        },
-        {
-          "name": "Passes",
-          "ioValue": 2,
-          "currentEquation": "2"
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Molecule"
-        }
-      ],
-      "partName": "Molecule",
-      "sortDirection": "Left"
-    },
-    {
       "atomType": "Import",
       "name": "Import",
       "x": 0.1268456375838926,
@@ -161,6 +129,16 @@
           "ioValue": 5
         }
       ]
+    },
+    {
+      "atomType": "Readme",
+      "name": "README",
+      "x": 0.54178145087236,
+      "y": 0.45652173913043476,
+      "uniqueID": "id-68",
+      "ioValues": [],
+      "readMeText": "Done",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -185,20 +163,20 @@
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
-      "ap1ID": "7eec2c54-9160-4320-a722-db0906e97032",
-      "ap2ID": "id-33"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
       "ap1ID": "id-21",
       "ap2ID": "id-25"
     },
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
+      "ap1ID": "id-25",
+      "ap2ID": "id-33"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "number or geometry",
       "ap1ID": "id-29",
-      "ap2ID": "d7bd044f-9afc-4440-9b3b-d7eb3488d3b6"
+      "ap2ID": "d3e25771-0f7c-4215-a122-f7c1045f96fc"
     },
     {
       "ap1Name": "geometry",
