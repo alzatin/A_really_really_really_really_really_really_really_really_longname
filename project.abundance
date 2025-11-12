@@ -18,47 +18,43 @@
     {
       "atomType": "Rectangle",
       "name": "Rectangle",
-      "x": 0.24616626311541565,
-      "y": 0.48757763975155277,
+      "x": 0.25693893735130846,
+      "y": 0.4782608695652174,
       "uniqueID": "1b9e4495-2958-490f-b191-17e032057477",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "y length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
     {
       "atomType": "Circle",
       "name": "Circle",
-      "x": 0.20096852300242132,
-      "y": 0.8322981366459627,
+      "x": 0.19666931007137192,
+      "y": 0.8478260869565217,
       "uniqueID": "id-97",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         }
       ]
     },
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.36319612590799033,
-      "y": 0.7267080745341615,
+      "x": 0.366375892149088,
+      "y": 0.7484472049689441,
       "uniqueID": "id-100",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 7,
-          "currentEquation": "7"
+          "ioValue": 7
         },
         {
           "name": "yDist",
@@ -94,8 +90,8 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.4995964487489911,
-      "y": 0.7888198757763976,
+      "x": 0.44409199048374304,
+      "y": 0.4627329192546583,
       "uniqueID": "id-130",
       "ioValues": [
         {
