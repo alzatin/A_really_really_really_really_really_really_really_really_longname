@@ -62,8 +62,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         }
       ]
     },
@@ -97,8 +96,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
@@ -119,13 +117,13 @@
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 0.75,
+          "currentEquation": ".75"
         },
         {
           "name": "Passes",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 2,
+          "currentEquation": "2"
         },
         {
           "name": "Speed",
