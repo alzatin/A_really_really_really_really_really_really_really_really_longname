@@ -24,8 +24,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "y length",
@@ -42,8 +41,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         }
       ]
     },
@@ -64,8 +62,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -91,8 +88,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 5
         }
       ]
     },
@@ -113,8 +109,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 5
         }
       ]
     },
@@ -139,7 +134,8 @@
         },
         {
           "name": "Passes",
-          "ioValue": 1
+          "ioValue": 4,
+          "currentEquation": "4"
         },
         {
           "name": "Speed",
