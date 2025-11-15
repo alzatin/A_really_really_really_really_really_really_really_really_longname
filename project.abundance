@@ -24,37 +24,27 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 20,
+          "currentEquation": "20"
         },
         {
           "name": "y length",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Circle",
-      "name": "Circle",
-      "x": 0.19666931007137192,
-      "y": 0.8540372670807453,
-      "uniqueID": "id-97",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 50
+          "ioValue": 20,
+          "currentEquation": "20"
         }
       ]
     },
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.366375892149088,
-      "y": 0.7484472049689441,
+      "x": 0.35448057097541635,
+      "y": 0.7888198757763976,
       "uniqueID": "id-100",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 7
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
@@ -69,8 +59,8 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.542426645519429,
-      "y": 0.813664596273292,
+      "x": 0.5408406026962729,
+      "y": 0.7204968944099379,
       "uniqueID": "id-110",
       "ioValues": [
         {
@@ -82,8 +72,8 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.3893735130848533,
-      "y": 0.2795031055900621,
+      "x": 0.3909595559080095,
+      "y": 0.2888198757763975,
       "uniqueID": "id-130",
       "ioValues": [
         {
@@ -116,26 +106,27 @@
     {
       "atomType": "Difference",
       "name": "Difference",
-      "x": 0.655035685963521,
-      "y": 0.42857142857142855,
+      "x": 0.6486915146708961,
+      "y": 0.4409937888198758,
       "uniqueID": "id-199",
       "ioValues": []
     },
     {
       "atomType": "Gcode",
       "name": "Gcode",
-      "x": 0.7589214908802538,
+      "x": 0.76050753370341,
       "y": 0.7049689440993789,
       "uniqueID": "id-203",
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 0.25
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
           "name": "Passes",
-          "ioValue": 4,
-          "currentEquation": "4"
+          "ioValue": 5,
+          "currentEquation": "5"
         },
         {
           "name": "Speed",
@@ -152,6 +143,25 @@
       ],
       "partName": "Molecule",
       "sortDirection": "Left"
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.20777160983346551,
+      "y": 0.8757763975155279,
+      "uniqueID": "id-238",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 30,
+          "currentEquation": "30"
+        },
+        {
+          "name": "y length",
+          "ioValue": 30,
+          "currentEquation": "30"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -160,12 +170,6 @@
       "ap2Name": "geometry",
       "ap1ID": "1b9e4495-2958-490f-b191-17e032057477",
       "ap2ID": "id-130"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "id-97",
-      "ap2ID": "id-100"
     },
     {
       "ap1Name": "geometry",
@@ -202,6 +206,12 @@
       "ap2Name": "geometry",
       "ap1ID": "id-199",
       "ap2ID": "id-203"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-238",
+      "ap2ID": "id-100"
     }
   ],
   "unitsKey": "Inches",
