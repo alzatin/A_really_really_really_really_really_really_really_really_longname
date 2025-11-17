@@ -112,18 +112,18 @@
       "atomType": "Gcode",
       "name": "Gcode",
       "x": 0.7857838364167479,
-      "y": 0.6832298136645962,
+      "y": 0.6801242236024845,
       "uniqueID": "id-203",
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 0.25,
-          "currentEquation": ".25"
+          "ioValue": 5,
+          "currentEquation": "5"
         },
         {
           "name": "Passes",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 4,
+          "currentEquation": "4"
         },
         {
           "name": "Speed",
