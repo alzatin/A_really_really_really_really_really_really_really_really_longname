@@ -4,6 +4,17 @@
   "y": 0,
   "uniqueID": "01e278b0-4910-484c-bdc0-8458b001eb66",
   "name": "Molecule",
+  "ioValues": [
+    {
+      "name": "wood",
+      "ioValue": 50,
+      "currentEquation": "50"
+    },
+    {
+      "name": "plastic",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -14,17 +25,19 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.176050753370341,
-      "y": 0.3695652173913043,
+      "x": 0.2208029197080292,
+      "y": 0.34782608695652173,
       "uniqueID": "1b9e4495-2958-490f-b191-17e032057477",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 20
+          "ioValue": 55,
+          "currentEquation": "wood + 5"
         },
         {
           "name": "y length",
-          "ioValue": 20
+          "ioValue": 10,
+          "currentEquation": "300"
         }
       ]
     },
@@ -110,8 +123,7 @@
         },
         {
           "name": "Passes",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         },
         {
           "name": "Speed",
@@ -131,17 +143,18 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.20777160983346551,
-      "y": 0.8757763975155279,
+      "x": 0.2208029197080292,
+      "y": 0.6490683229813664,
       "uniqueID": "id-238",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 30
+          "ioValue": 50
         },
         {
           "name": "y length",
-          "ioValue": 30
+          "ioValue": 10,
+          "currentEquation": "wood"
         }
       ]
     },
@@ -181,8 +194,7 @@
         },
         {
           "name": "Passes",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         },
         {
           "name": "Speed",
@@ -199,6 +211,22 @@
       ],
       "partName": "Molecule",
       "sortDirection": "Left"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.45652173913043476,
+      "uniqueID": "id-366",
+      "name": "wood",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.717391304347826,
+      "uniqueID": "id-369",
+      "name": "plastic",
+      "type": "number"
     }
   ],
   "allConnectors": [
@@ -251,6 +279,21 @@
       "ap2Name": "geometry",
       "ap1ID": "id-238",
       "ap2ID": "id-100"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-366",
+      "ap2ID": "id-238"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-369",
+      "ap2ID": "id-238"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-369",
+      "ap2ID": "1b9e4495-2958-490f-b191-17e032057477"
     }
   ],
   "unitsKey": "MM",
