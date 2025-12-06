@@ -229,11 +229,11 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.4993103448275862,
-      "y": 0.5344827586206897,
+      "x": 0.5,
+      "y": 0.5747126436781609,
       "uniqueID": "id-467",
       "name": "Extract Tag",
-      "tag": "mesh",
+      "tag": "lost",
       "tagIndex": 0
     },
     {
