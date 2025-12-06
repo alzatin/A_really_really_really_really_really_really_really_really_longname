@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "wood",
-      "ioValue": 5
+      "ioValue": 5,
+      "currentEquation": "5"
     }
   ],
   "topLevel": true,
@@ -36,13 +37,13 @@
     },
     {
       "atomType": "Move",
-      "x": 0.356551724137931,
-      "y": 0.7758620689655172,
+      "x": 0.4193103448275862,
+      "y": 0.793103448275862,
       "uniqueID": "id-100",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -3
         },
         {
           "name": "yDist",
@@ -144,11 +145,12 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 6
+          "ioValue": 5
         },
         {
           "name": "y length",
-          "ioValue": 30
+          "ioValue": 30,
+          "currentEquation": "30"
         }
       ]
     },
@@ -248,8 +250,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.4510344827586207,
-      "y": 0.793103448275862,
+      "x": 0.8517241379310345,
+      "y": 0.30459770114942525,
       "uniqueID": "id-525",
       "ioValues": [
         {
@@ -271,6 +273,52 @@
       "uniqueID": "id-585",
       "name": "7",
       "value": 5
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.18137931034482757,
+      "y": 0.7241379310344828,
+      "uniqueID": "id-645",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.2482758620689655,
+      "y": 0.7902298850574713,
+      "uniqueID": "id-648",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "y length",
+          "ioValue": 10,
+          "currentEquation": "10"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.7324137931034482,
+      "y": 0.8390804597701149,
+      "uniqueID": "id-652",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 35
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
