@@ -149,8 +149,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
@@ -214,7 +213,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.1724137931034483,
+      "y": 0.16,
       "uniqueID": "id-361",
       "name": "wood",
       "type": "number"
@@ -250,8 +249,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.8517241379310345,
-      "y": 0.30459770114942525,
+      "x": 0.8462068965517241,
+      "y": 0.3505747126436782,
       "uniqueID": "id-525",
       "ioValues": [
         {
@@ -276,8 +275,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.18275862068965518,
-      "y": 0.7729885057471265,
+      "x": 0.18620689655172415,
+      "y": 0.75,
       "uniqueID": "id-645",
       "ioValues": [
         {
@@ -288,19 +287,17 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.25724137931034485,
+      "x": 0.2613793103448276,
       "y": 0.6436781609195402,
       "uniqueID": "id-648",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "y length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
