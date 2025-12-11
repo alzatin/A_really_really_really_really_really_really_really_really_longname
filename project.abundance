@@ -198,7 +198,8 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 1
+          "ioValue": 0.25,
+          "currentEquation": ".25"
         },
         {
           "name": "Part Name",
