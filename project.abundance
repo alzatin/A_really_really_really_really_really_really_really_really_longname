@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "wood",
-      "ioValue": 10
+      "ioValue": 15
     }
   ],
   "topLevel": true,
@@ -84,13 +84,13 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.34023668639053256,
-      "y": 0.5196374622356495,
+      "x": 0.34516765285996054,
+      "y": 0.5709969788519638,
       "uniqueID": "id-948",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 29
+          "ioValue": 28
         },
         {
           "name": "y length",
@@ -106,15 +106,14 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         }
       ]
     },
     {
       "atomType": "Assembly",
-      "x": 0.6469428007889547,
-      "y": 0.6676737160120846,
+      "x": 0.7337278106508877,
+      "y": 0.4199395770392749,
       "uniqueID": "id-974",
       "ioValues": [
         {
