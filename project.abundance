@@ -84,8 +84,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.5729166666666667,
-      "y": 0.38368580060422963,
+      "x": 0.6621338912133892,
+      "y": 0.6858006042296072,
       "uniqueID": "id-907",
       "codeVersion": 1,
       "code": "Inputs = [\n       {inputName: \"A\", type: \"geometry\", defaultValue: null},\n        {inputName: \"B\", type: \"geometry\", defaultValue: null}\n      ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      let boundsA = await GetBounds(A);\n      let A_minZ = boundsA.min[2];\n\n      let B_maxZ = 0;\n      if(B){\n          let boundsB = await GetBounds(B);\n          console.log(\"Bounding Box B:  \");\n          console.log(boundsB);\n          B_maxZ  = boundsB.max[2];\n      }\n\n     let translationZ = B_maxZ - A_minZ;\n     \n      let movedOutput = await Move(A, 0, 0, translationZ);\n\n      return movedOutput;"
