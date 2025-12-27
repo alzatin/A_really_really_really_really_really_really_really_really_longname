@@ -36,8 +36,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 5
         }
       ]
     },
@@ -94,6 +93,37 @@
           "ioValue": 2
         }
       ]
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.8317307692307692,
+      "y": 0.755287009063444,
+      "uniqueID": "id-1255",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Test-dev-december-2",
+          "currentEquation": "Test-dev-december-2"
+        }
+      ],
+      "partName": "Test-dev-december-2",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -121,6 +151,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-1227",
       "ap2ID": "d3e25771-0f7c-4215-a122-f7c1045f96fc"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1227",
+      "ap2ID": "id-1255"
     },
     {
       "ap2Name": "geometry2",
