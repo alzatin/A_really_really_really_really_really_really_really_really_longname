@@ -56,8 +56,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.3365570599613153,
-      "y": 0.5770392749244713,
+      "x": 0.40425531914893614,
+      "y": 0.43202416918429004,
       "uniqueID": "id-2718",
       "ioValues": [
         {
@@ -230,8 +230,7 @@
             },
             {
               "name": "plane",
-              "ioValue": "X",
-              "currentEquation": "X"
+              "ioValue": "X"
             }
           ],
           "codeVersion": 1,
@@ -495,8 +494,7 @@
             },
             {
               "name": "plane",
-              "ioValue": "X",
-              "currentEquation": "X"
+              "ioValue": "X"
             }
           ],
           "codeVersion": 1,
@@ -598,8 +596,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.21760154738878143,
-      "y": 0.5921450151057402,
+      "x": 0.21470019342359767,
+      "y": 0.595166163141994,
       "uniqueID": "id-3173",
       "name": "Rectangle-Rounded",
       "ioValues": [
@@ -1126,6 +1124,18 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3752417794970987,
+      "y": 0.676737160120846,
+      "uniqueID": "id-3318",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1143,6 +1153,16 @@
       "ap2Name": "Shape",
       "ap1ID": "id-1667",
       "ap2ID": "id-3117"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3173",
+      "ap2ID": "id-3318"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-3318",
+      "ap2ID": "d3e25771-0f7c-4215-a122-f7c1045f96fc"
     }
   ],
   "unitsKey": "MM",
