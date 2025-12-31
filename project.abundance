@@ -55,6 +55,34 @@
       ]
     },
     {
+      "atomType": "Rectangle",
+      "x": 0.18762088974854935,
+      "y": 0.4561933534743203,
+      "uniqueID": "id-3467",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.36266924564796904,
+      "y": 0.46223564954682783,
+      "uniqueID": "id-3468",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.6334622823984526,
       "y": 0.18731117824773413,
@@ -129,7 +157,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 1
+              "ioValue": 10
             }
           ]
         },
@@ -145,7 +173,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 10
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -198,7 +226,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 30
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
@@ -319,34 +347,6 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.18762088974854935,
-      "y": 0.4561933534743203,
-      "uniqueID": "id-3467",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 10
-        },
-        {
-          "name": "y length",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.36266924564796904,
-      "y": 0.46223564954682783,
-      "uniqueID": "id-3468",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "GitHubMolecule",
       "x": 0.5889748549323017,
       "y": 0.39274924471299094,
@@ -421,7 +421,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 1
+              "ioValue": 10
             }
           ]
         },
@@ -437,7 +437,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 10
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -490,7 +490,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 30
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
@@ -510,8 +510,7 @@
             },
             {
               "name": "plane",
-              "ioValue": "X",
-              "currentEquation": "X"
+              "ioValue": "X"
             }
           ],
           "codeVersion": 1,
